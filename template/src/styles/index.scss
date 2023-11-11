@@ -1,6 +1,7 @@
 @use '@styles/variables.module.scss';
 @use '@styles/fonts.module.scss';
 @use '@styles/colors.module.scss';
+@use '@styles/mixins.scss';
 
 * {
   box-sizing: border-box;

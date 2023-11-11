@@ -8,7 +8,7 @@ import i18n from '@translations/i18n';
  * @param showError Method used to display an alert (error level) in a snackbar
  */
 const handleErrors = (error) => {
-  const showError = useSnackbarStore.getState().showError;
+  const { showError } = useSnackbarStore.getState();
   if (!error.response) {
     showError({ message: i18n.t('error.alert.NO_RESPONSE'), duration: 'normal' });
   } else if (error.response.status === 401) {

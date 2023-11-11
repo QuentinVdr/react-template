@@ -1,12 +1,9 @@
 import { MutationCache, QueryCache, QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import handleErrors from '@utils/errors/handleErrors';
+import PropTypes from 'prop-types';
 import { useMemo } from 'react';
 
-/** Define component props */
-ReactQueryProvider.propTypes = {
-  children: React.PropTypes
-};
 /** Setup handle error for all request */
 const mutationCache = new MutationCache({
   onError: handleErrors
@@ -18,7 +15,7 @@ const queryCache = new QueryCache({
 });
 
 /** Component used to handle the react query configuration and tools */
-export const ReactQueryProvider = ({ children }) => {
+export function ReactQueryProvider({ children }) {
   const queryClient = useMemo(
     () =>
       new QueryClient({
@@ -30,8 +27,13 @@ export const ReactQueryProvider = ({ children }) => {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <ReactQueryDevtools position={'bottom-right'} />
+      <ReactQueryDevtools position="bottom-right" />
       {children}
     </QueryClientProvider>
   );
+}
+
+/** Define component props */
+ReactQueryProvider.propTypes = {
+  children: PropTypes.element.isRequired
 };

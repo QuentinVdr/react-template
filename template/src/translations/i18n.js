@@ -4,14 +4,14 @@ import enTranslation from './en/en.json';
 import frTranslation from './fr/fr.json';
 
 i18n
-  //Pass the i18n instance to react-i18next
+  // Pass the i18n instance to react-i18next
   .use(initReactI18next)
-  //init i18next
+  // init i18next
   .init({
     debug: true,
     fallbackLng: 'fr',
     interpolation: {
-      escapeValue: false //not needed for react as it escapes by default
+      escapeValue: false // not needed for react as it escapes by default
     },
     resources: {
       en: {

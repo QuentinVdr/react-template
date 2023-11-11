@@ -5,7 +5,7 @@ import { defineConfig } from 'vite';
 export default defineConfig({
   plugins: [react()],
   resolve: {
-    //Registering alias paths
+    // Registering alias paths
     alias: {
       '@api': '/src/api',
       '@assets': '/public/assets',

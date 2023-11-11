@@ -21,8 +21,8 @@ export default function Home() {
   return (
     <>
       <Typography variant="h2">{t('common.message.welcome')}</Typography>
-      <Stack direction={'column'} spacing={2}>
-        <Stack direction={'row'} spacing={2} alignItems={'center'}>
+      <Stack direction="column" spacing={2}>
+        <Stack direction="row" spacing={2} alignItems="center">
           <Typography variant="h6">{t('common.message.selectLanguage')} :</Typography>
           {availableLanguages.map((lng) => (
             <Button

@@ -100,7 +100,7 @@ export const theme = createTheme({
   },
   palette: {
     primary: {
-      main: colors.infotelBlue
+      main: colors.primary
     },
     warning: {
       main: colors.muiWarningMain
