@@ -2,14 +2,7 @@
 
 React template for school projects.
 
-## Script
-
-```bash
-// Use this template
-npx create-react-app my-app --template quentinvdr
-```
-
-## Installation and Publish
+## Development
 
 To install and update this template
 

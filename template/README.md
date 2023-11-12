@@ -10,12 +10,12 @@ Project create from quentinvdr's template for React school projects.
 - Run these commands
 
 ```bash
-# Install dependencies
+# 📦 Install dependencies
 npm install
 pnpm install
 yarn install
 
-# Run development server
+# ▶️ Run development server
 npm run dev
 pnpm run dev
 yarn dev
@@ -23,22 +23,22 @@ yarn dev
 
 ## Project Architecture
 
-- `public`: directory containing static files (favicon, manifest, images, etc...)
-- `src`: directory containing the project source code
-- `src/api`: directory containing the requests (fetch)
-- `src/components`: directory containing the React components (business logic)
-  - `src/components/{ComponentName}`: Component name should be in PascalCase
-    - `src/components/{ComponentName}/{ComponentName}.jsx`: Main component file
-    - `src/components/{ComponentName}/{ComponentName}.module.scss`: Component style file (scoped to the component)
-  - `src/components/global/{ComponentName}`: Component name should be in PascalCase
-    - `src/components/global/{ComponentName}/{ComponentName}.jsx`: Main component file (global = component used in multiple pages, such as headers & footers)
-    - `src/components/global/{ComponentName}/{ComponentName}.module.scss`: Component style file (scoped to the component) - (global = component used in multiple pages, such as headers & footers)
-- `src/pages`: directory containing React pages (simpler, business logic is in the components)
-- `src/routes`: directory containing the routes (react-router)
+This project follows a specific structure for organization and ease of navigation:
 
-- `src/stores`: directory containing the store keys (react-query)
-- `src/styles`: directory containing global styles (variables, theme, etc...)
-- `src/translations`: directory containing translations (i18n)
-- `src/utils`: directory containing utilities (reusable functions, etc...)
-- `src/main.jsx`: main project file (entry point)
-- `package.json`: project configuration file
+- 📁 `public`: This directory contains all static files like favicon, manifest, images, etc.
+- 📁 `src`: This is the main directory that contains the project source code. It includes:
+  - 📁 `api`: This directory contains all the requests (fetch).
+  - 📁 `components`: This directory contains all the React components (business logic). Each component has its own directory with the following structure:
+    - 📄 `{ComponentName}.jsx`: The main component file.
+    - 📄 `{ComponentName}.module.scss`: The component's style file, scoped to the component.
+  - 📁 `global`: This directory contains components used in multiple pages, such as headers & footers. Each global component has its own directory with the following structure:
+    - 📄 `{ComponentName}.jsx`: The main component file.
+    - 📄 `{ComponentName}.module.scss`: The component's style file, scoped to the component.
+  - 📁 `pages`: This directory contains React pages. The business logic is in the components.
+  - 📁 `routes`: This directory contains the routes (react-router).
+  - 📁 `stores`: This directory contains the store keys (react-query).
+  - 📁 `styles`: This directory contains global styles (variables, theme, etc.).
+  - 📁 `translations`: This directory contains translations (i18n).
+  - 📁 `utils`: This directory contains utilities (reusable functions, etc.).
+  - 📄 `main.jsx`: This is the main project file and the entry point of the project.
+- 📄 `package.json`: This is the project configuration file.
