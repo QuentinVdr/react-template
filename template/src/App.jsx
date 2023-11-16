@@ -1,3 +1,4 @@
+import { ConfirmDialogProvider } from '@contexts/ConfirmDialogContext';
 import { ReactQueryProvider } from '@contexts/ReactQueryProvider';
 import { ThemeProvider } from '@emotion/react';
 import { CssBaseline } from '@mui/material';
@@ -15,7 +16,9 @@ export function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline>
         <ReactQueryProvider>
-          <AppRouter />
+          <ConfirmDialogProvider>
+            <AppRouter />
+          </ConfirmDialogProvider>
         </ReactQueryProvider>
       </CssBaseline>
     </ThemeProvider>

@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
-    "baseUrl": "./src",
-    "jsx": "react",
+    "forceConsistentCasingInFileNames": true, // Force to import the file by taking into account the case sensitive
+    "resolveJsonModule": true, // Include modules imported with .json extension
+    "isolatedModules": true, // Unconditionally emit imports for unresolved files
+    "jsx": "react-jsx", // Will warn if a module can't be correctly interpreted by a single-file transpilation process
+    "baseUrl": ".",
+    // Path aliases configuration (don't forget to also configure Vite with these)/
     "paths": {
       "@api": ["src/api"],
       "@assets": ["src/assets"],
@@ -16,5 +20,6 @@
       "@utils": ["/src/utils"]
     }
   },
-  "exclude": ["node_modules", "build"]
+  "include": ["src", ".eslintrc.json"],
+  "exclude": ["node_modules", "build", ".vscode", ".git", "dist"]
 }

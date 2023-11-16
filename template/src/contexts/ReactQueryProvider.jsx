@@ -4,6 +4,11 @@ import handleErrors from '@utils/errors/handleErrors';
 import PropTypes from 'prop-types';
 import { useMemo } from 'react';
 
+/** Define component props */
+ReactQueryProvider.propTypes = {
+  children: PropTypes.element.isRequired
+};
+
 /** Setup handle error for all request */
 const mutationCache = new MutationCache({
   onError: handleErrors
