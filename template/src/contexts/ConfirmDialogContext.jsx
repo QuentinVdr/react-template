@@ -1,4 +1,5 @@
 import ConfirmDialog from '@components/global/Dialog/ConfirmDialog';
+import PropTypes from 'prop-types';
 import { createContext, useState } from 'react';
 
 /** Define component props */
@@ -28,13 +29,9 @@ export function ConfirmDialogProvider({ children }) {
       ...newDialogOptions
     });
     setOpen(true);
-    return (
-      new Promise() <
-      boolean >
-      ((resolve) => {
-        setConfirmDialogPromise(() => resolve);
-      })
-    );
+    return new Promise()((resolve) => {
+      setConfirmDialogPromise(() => resolve);
+    });
   };
 
   /**
