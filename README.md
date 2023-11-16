@@ -19,29 +19,23 @@ Internalization :
 - [i18next](https://www.i18next.com/)
 - [React-i18next](https://react.i18next.com/)
 
-Gestion des données :
+Data management :
 
-- [React-Query](https://tanstack.com/query/v4/docs/react/overview) → Gestion du code asynchrone (Cache, gestion de l'état des Promise, etc)
-- [Axios](https://axios-http.com/fr/docs/intro) → Client HTTP basé sur les Promise pour communiquer avec la partie Back-end
-- [Zod](https://zod.dev/) → Librairie utilisée pour la validation des données d'envois/de retour depuis l'API
-
-Construction/Validation de formulaire :
-
-- [React-hook-form](https://react-hook-form.com/) → Librairie de state management et de validation des formulaires
-- [Zod](https://zod.dev/) → Librairie utilisée pour faire de la validation des données des formulaires (Validation des données requises, messages d'erreur, des types de données, etc)
+- [React-Query](https://tanstack.com/query/v4/docs/react/overview) → Async data fetching and caching (Cache, Promise state management, etc)
+- [Axios](https://axios-http.com/fr/docs/intro) → HTTP client based on Promise to communicate with the Back-end part
 
 Routing :
 
-- [React-router-dom](https://reactrouter.com/web/guides/quick-start) → Librairie utilisée pour gérer le routing et la navigation entre les pages de l'application
+- [React-router-dom](https://reactrouter.com/web/guides/quick-start) → Library used to manage routing and navigation between the pages of the application
 
 CSS :
 
 - [Material UI](https://mui.com/) → UI Library components
-- [Sass](https://sass-lang.com/) → Préprocesseur qui ajoute des fonctionnalités au CSS. Il permet, entre autres, de mieux structurer et simplifier le code, d'éviter les répétitions, etc
+- [Sass](https://sass-lang.com/) → CSS preprocessor that adds features to CSS. It allows, among other things, to better structure and simplify the code, to avoid repetitions, etc
 
 Icons :
 
-- [Material Icons](https://mui.com/components/material-icons/) → Librairie d'icônes prêt à l'emploi
+- [Material Icons](https://mui.com/components/material-icons/) → Ready-to-use icon library
 
 ## Development
 

@@ -42,3 +42,38 @@ This project follows a specific structure for organization and ease of navigatio
   - 📁 `utils`: This directory contains utilities (reusable functions, etc.).
   - 📄 `main.jsx`: This is the main project file and the entry point of the project.
 - 📄 `package.json`: This is the project configuration file.
+
+## Librairies
+
+### Technology stack :
+
+- Library/Framework JS : [React](https://reactjs.org/)
+- Langage : [JavaScript](https://developer.mozilla.org/fr/docs/Web/JavaScript)
+- Package Manager : [pnpm](https://pnpm.io/)
+- Builder : [Vite](https://vitejs.dev/)
+- Linter/Code formatter : [EsLint](https://eslint.org/) / [Prettier](https://prettier.io/)
+
+#### Librairie Majeur :
+
+Internalization :
+
+- [i18next](https://www.i18next.com/)
+- [React-i18next](https://react.i18next.com/)
+
+Data management :
+
+- [React-Query](https://tanstack.com/query/v4/docs/react/overview) → Async data fetching and caching (Cache, Promise state management, etc)
+- [Axios](https://axios-http.com/fr/docs/intro) → HTTP client based on Promise to communicate with the Back-end part
+
+Routing :
+
+- [React-router-dom](https://reactrouter.com/web/guides/quick-start) → Library used to manage routing and navigation between the pages of the application
+
+CSS :
+
+- [Material UI](https://mui.com/) → UI Library components
+- [Sass](https://sass-lang.com/) → CSS preprocessor that adds features to CSS. It allows, among other things, to better structure and simplify the code, to avoid repetitions, etc
+
+Icons :
+
+- [Material Icons](https://mui.com/components/material-icons/) → Ready-to-use icon library
