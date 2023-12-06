@@ -1,9 +1,14 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:best-practices"],
-  "regexManagers": [
+  "extends": [
+    "config:best-practices"
+  ],
+  "customManagers": [
     {
-      "fileMatch": ["^template.json$"],
+      "customType": "regex",
+      "fileMatch": [
+        "^template.json$"
+      ],
       "matchStringsStrategy": "recursive",
       "matchStrings": [
         "\"dependencies\":\\s*\\{[^}]*}",
