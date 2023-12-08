@@ -23,6 +23,8 @@ Data management :
 
 - [React-Query](https://tanstack.com/query/v4/docs/react/overview) → Async data fetching and caching (Cache, Promise state management, etc)
 - [Axios](https://axios-http.com/fr/docs/intro) → HTTP client based on Promise to communicate with the Back-end part
+- [Zustand](https://github.com/pmndrs/zustand) → State management library
+- [PropTypes](https://fr.reactjs.org/docs/typechecking-with-proptypes.html) → Type checking for React props and similar objects
 
 Routing :
 
