@@ -9,16 +9,6 @@ on:
       - "*"
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: ⬇️ Checkout repo
-        uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29 # v4
-      - name: 📦 Setup Node.js
-        uses: actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8 # v4
-        with:
-          node-version: 20
-
   publish-npm:
     needs: build
     runs-on: ubuntu-latest
