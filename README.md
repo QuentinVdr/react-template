@@ -39,24 +39,12 @@ Icons :
 
 - [Material Icons](https://mui.com/components/material-icons/) → Ready-to-use icon library
 
-## Development
-
-To install and update this template
-
-- Clone the project
-- Run these commands :
-
-```bash
-# Publish this template
-npm publish --access public
-```
-
 ## Usage
 
 To use this template go to our workspace folder and run this command :
 
 ```bash
-# Use this template
+# Use this template (replace "my-app" by your project name)
 npx create-react-app my-app --template quentinvdr
 
 # Use this template with local update
