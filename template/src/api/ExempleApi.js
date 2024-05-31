@@ -1,4 +1,4 @@
-import { HttpClient } from '@Api/HttpClient';
+import { HttpClient } from '@api/HttpClient';
 
 const exempleBaseUrl = '/exemple';
 

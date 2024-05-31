@@ -2,10 +2,16 @@
   "root": true,
   "env": {
     "browser": true,
-    "es2021": true
+    "es2023": true
   },
-  "plugins": ["react", "prettier"],
-  "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:react/jsx-runtime", "prettier"],
+  "plugins": ["react", "prettier", "@tanstack/query"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "plugin:@tanstack/eslint-plugin-query/recommended"
+  ],
   "ignorePatterns": ["node_modules/", "dist/", ".eslintrc.json", "*.config.js", "*.cjs"],
   "parserOptions": {
     "ecmaVersion": "latest",
