@@ -49,6 +49,8 @@ npx create-react-app my-app --template quentinvdr
 
 # Use this template with local update
 npx create-react-app my-app --template file:relative-path-to-template-folder
+
+# Rename all the "my-app" by your project name
 ```
 
 then refer to the README.md file in the generated project.

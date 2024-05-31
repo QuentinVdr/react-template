@@ -1,6 +1,6 @@
 {
-  "short_name": "ProjectName",
-  "name": "ProjectName",
+  "short_name": "my-app",
+  "name": "my-app",
   "icons": [
     {
       "src": "/vite.svg",
