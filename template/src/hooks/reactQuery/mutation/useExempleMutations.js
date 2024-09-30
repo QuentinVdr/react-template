@@ -24,7 +24,7 @@ export const useUpdateExempleMutation = (exempleId) => {
   });
 };
 
-export const useDeleteCandidateMutation = () => {
+export const useDeleteExempleMutation = () => {
   const queryClient = useQueryClient();
 
   return useMutation({
