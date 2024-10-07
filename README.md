@@ -4,7 +4,7 @@ React template for school projects.
 
 ## Librairies
 
-### Technology stack :
+### Technology stack
 
 - Library/Framework JS : [React](https://reactjs.org/)
 - Langage : [JavaScript](https://developer.mozilla.org/fr/docs/Web/JavaScript)
@@ -12,7 +12,7 @@ React template for school projects.
 - Builder : [Vite](https://vitejs.dev/)
 - Linter/Code formatter : [EsLint](https://eslint.org/) / [Prettier](https://prettier.io/)
 
-#### Librairie Majeur :
+### Librairie Majeur
 
 Internalization :
 
@@ -21,7 +21,7 @@ Internalization :
 
 Data management :
 
-- [React-Query](https://tanstack.com/query/v4/docs/react/overview) → Async data fetching and caching (Cache, Promise state management, etc)
+- [React-Query](https://tanstack.com/query/v5/docs/react/overview) → Async data fetching and caching (Cache, Promise state management, etc)
 - [Axios](https://axios-http.com/fr/docs/intro) → HTTP client based on Promise to communicate with the Back-end part
 - [Zustand](https://github.com/pmndrs/zustand) → State management library
 - [PropTypes](https://fr.reactjs.org/docs/typechecking-with-proptypes.html) → Type checking for React props and similar objects
@@ -48,7 +48,7 @@ To use this template go to our workspace folder and run this command :
 npx create-react-app my-app --template quentinvdr
 
 # Use this template with local update
-npx create-react-app my-app --template file:relative-path-to-template-folder
+npx create-react-app my-app --template file:[relative-path-to-template-folder]/cra-template-quentinvdr
 
 # Rename all the "my-app" by your project name
 ```
