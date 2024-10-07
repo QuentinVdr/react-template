@@ -19,6 +19,7 @@ body {
   font-family: fonts.$font-family;
   clear: both;
   margin: 0;
+  color: colors.$default-font;
   // to avoid the problem that the scrollbar
   // will push the content to the left when we click on select
   padding: 0 !important;
